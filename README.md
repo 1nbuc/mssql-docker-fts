@@ -5,7 +5,7 @@ Docker image for Microsoft SQL Server with Full-Text Seach feature enabled
 
 ### With docker-compoes:
 ```bash 
-git clone https://github.com/1nbuc/mssql-docker-fts.git && cd mssql-docker-fts
+git clone https://github.com/1nbuc/mssql-docker-fts.git && cd mssql-docker-fts && cp .env.example .env
 ```
 Edit .env and docker-compose.yaml as needed.
 ```bash
