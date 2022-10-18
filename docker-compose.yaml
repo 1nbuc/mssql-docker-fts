@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  mssql:
+    image: ghcr.io/1nbuc/mssql-docker-fts:latest
+    container_name: mssql_server
+    ports:
+      - "1433:1433"
+    volumes:
+      - ./mssql-data:/var/opt/mssql
+    env_file:
+      - .env
